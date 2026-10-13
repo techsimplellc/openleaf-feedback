@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest something new or a change to how openleaf works.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. **This issue will be public.** Please search existing issues first; if someone has asked already, add a 👍 reaction there instead.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task or problem behind the request. What's hard or impossible today?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like openleaf to do?
+      description: Describe the feature or change. Mockups or examples from other apps are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle this now?
+      description: Workarounds or other tools you use for it today.
