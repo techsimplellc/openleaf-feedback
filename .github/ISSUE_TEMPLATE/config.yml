@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: openleaf help
+    url: https://getopenleaf.com
+    about: The Help menu in the app covers getting started, shortcuts, files and export.
